@@ -12,7 +12,7 @@
     }
   },
   "cdnLauncher": "https://raw.githubusercontent.com/henryzx27/TamilMP-Mobile-Backend/main/versions",
-  "cdnCache": "https://raw.githubusercontent.com/henryzx27/TamilMP-Mobile-Backend/main/versions",
+  "cdnCache": "https://drive.google.com/uc?export=download&id=19dShBMFzFQ_zw1-ETu5fP-DuateCg-lx&ignored=",
   "cacheMode": [],
   "rss": "",
   "versionHash": "1.0.0",
@@ -41,5 +41,13 @@
     "size": "0 MB"
   },
   "filesContinue": [],
-  "cache": []
+  "cache": [
+    {
+      "id": 1,
+      "name": "test.zip",
+      "path": "",
+      "bytes": [87532],
+      "gpu": ""
+    }
+  ]
 }
