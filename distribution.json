@@ -1,11 +1,9 @@
 {
 "version": "1.0.0",
-
 "project": {
 "name": "TamilMP Mobile",
 "build": 1
 },
-
 "downloads": {
 "test": {
 "name": "test.zip",
