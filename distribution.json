@@ -1,40 +1,38 @@
 {
 "version": "1.0.0",
-"projectName": "TamilMP Mobile",
 
-"launcher": {
+"project": {
+"name": "TamilMP Mobile",
+"build": 1
+},
+
+"game": {
+"required": true,
+"name": "GTA-SA-Mobile.zip",
+"url": "",
+"size": 0,
 "version": "1.0.0"
 },
 
-"downloads": {
-"game": {
-"name": "Game.zip",
-"url": "",
-"size": ""
-},
-
-```
 "cache": {
-  "name": "Cache.zip",
-  "url": "",
-  "size": ""
+"required": true,
+"name": "TamilMP-Cache.zip",
+"url": "",
+"size": 0,
+"version": "1.0.0"
 },
 
 "mods": {
-  "name": "Mods.zip",
-  "url": "",
-  "size": ""
-}
-```
-
+"required": true,
+"name": "TamilMP-Mods.zip",
+"url": "",
+"size": 0,
+"version": "1.0.0"
 },
 
-"servers": [
-{
-"id": 1,
+"server": {
 "name": "TamilMP Roleplay",
 "ip": "",
 "port": 7777
 }
-]
 }
