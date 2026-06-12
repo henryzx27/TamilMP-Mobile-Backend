@@ -1,14 +1,45 @@
 {
-"version": "1.0.0",
-"project": {
-"name": "TamilMP Mobile",
-"build": 1
-},
-"downloads": {
-"test": {
-"name": "test.zip",
-"url": "https://drive.google.com/uc?export=download&id=19dShBMFzFQ_zw1-ETu5fP-DuateCg-lx",
-"size": 87040
-}
-}
+  "version": "1.0.0",
+  "project": {
+    "name": "TamilMP Mobile",
+    "build": 1
+  },
+  "downloads": {
+    "test": {
+      "name": "test.zip",
+      "url": "https://drive.google.com/uc?export=download&id=19dShBMFzFQ_zw1-ETu5fP-DuateCg-lx",
+      "size": 87040
+    }
+  },
+  "cdnLauncher": "https://raw.githubusercontent.com/henryzx27/TamilMP-Mobile-Backend/main/versions",
+  "cdnCache": "https://raw.githubusercontent.com/henryzx27/TamilMP-Mobile-Backend/main/versions",
+  "cacheMode": [],
+  "rss": "",
+  "versionHash": "1.0.0",
+  "packageName": "com.touch.mobile.dark",
+  "projectName": "TamilMP Mobile",
+  "servers": [
+    {
+      "id": 1,
+      "show": true,
+      "version": "1.0",
+      "icon": "",
+      "events": [],
+      "slot": 100,
+      "bonus": false,
+      "name": "TamilMP Mobile Server",
+      "description": "SA-MP Mobile",
+      "address": "127.0.0.1:7777",
+      "sampVersion": "0.3.7"
+    }
+  ],
+  "launcher": {
+    "appVersion": "0.0.16",
+    "name": "launcher.apk",
+    "hash": "",
+    "bytes": 0,
+    "size": "0 MB"
+  },
+  "filesContinue": [],
+  "cache": []
 }
