@@ -1,1 +1,40 @@
+{
+"version": "1.0.0",
+"projectName": "TamilMP Mobile",
 
+"launcher": {
+"version": "1.0.0"
+},
+
+"downloads": {
+"game": {
+"name": "Game.zip",
+"url": "",
+"size": ""
+},
+
+```
+"cache": {
+  "name": "Cache.zip",
+  "url": "",
+  "size": ""
+},
+
+"mods": {
+  "name": "Mods.zip",
+  "url": "",
+  "size": ""
+}
+```
+
+},
+
+"servers": [
+{
+"id": 1,
+"name": "TamilMP Roleplay",
+"ip": "",
+"port": 7777
+}
+]
+}
