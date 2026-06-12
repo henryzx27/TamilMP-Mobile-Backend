@@ -6,33 +6,11 @@
 "build": 1
 },
 
-"game": {
-"required": true,
-"name": "GTA-SA-Mobile.zip",
-"url": "",
-"size": 0,
-"version": "1.0.0"
-},
-
-"cache": {
-"required": true,
-"name": "TamilMP-Cache.zip",
-"url": "",
-"size": 0,
-"version": "1.0.0"
-},
-
-"mods": {
-"required": true,
-"name": "TamilMP-Mods.zip",
-"url": "",
-"size": 0,
-"version": "1.0.0"
-},
-
-"server": {
-"name": "TamilMP Roleplay",
-"ip": "",
-"port": 7777
+"downloads": {
+"test": {
+"name": "test.zip",
+"url": "https://drive.google.com/uc?export=download&id=19dShBMFzFQ_zw1-ETu5fP-DuateCg-lx",
+"size": 87040
+}
 }
 }
