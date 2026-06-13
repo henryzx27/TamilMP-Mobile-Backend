@@ -1,23 +1,111 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "project": {
     "name": "TamilMP Mobile",
-    "build": 1
+    "build": 2
   },
-  "downloads": {
-    "test": {
-      "name": "test.zip",
-      "url": "https://drive.google.com/uc?export=download&id=19dShBMFzFQ_zw1-ETu5fP-DuateCg-lx",
-      "size": 87040
-    }
-  },
-  "cdnLauncher": "https://raw.githubusercontent.com/henryzx27/TamilMP-Mobile-Backend/main/versions",
-  "cdnCache": "https://drive.google.com/uc?export=download&id=19dShBMFzFQ_zw1-ETu5fP-DuateCg-lx&ignored=",
-  "cacheMode": [],
-  "rss": "",
-  "versionHash": "1.0.0",
   "packageName": "com.touch.mobile.dark",
   "projectName": "TamilMP Mobile",
+  "versionHash": "2.0.0",
+  "rss": "",
+  "filesContinue": [
+    "settings.ini",
+    "gta_sa.set",
+    "svconfig.ini"
+  ],
+
+  "packages": [
+    {
+      "id": "core",
+      "name": "TamilMP Core",
+      "description": "Game engine, textures, models, animations, and multiplayer files",
+      "required": true,
+      "phase": 1,
+      "gpuSpecific": true,
+      "variants": {
+        "A": {
+          "url": "https://cdn.tamilmp.com/packages/tamilmp_core_dxt.zip",
+          "size": 900000000,
+          "hash": ""
+        },
+        "M": {
+          "url": "https://cdn.tamilmp.com/packages/tamilmp_core_etc.zip",
+          "size": 880000000,
+          "hash": ""
+        },
+        "PT": {
+          "url": "https://cdn.tamilmp.com/packages/tamilmp_core_pvr.zip",
+          "size": 920000000,
+          "hash": ""
+        }
+      },
+      "verifyFiles": [
+        "SAMP/settings.ini",
+        "anim/ped.ifp",
+        "data/gta.dat",
+        "data/handling.cfg",
+        "models/fonts.txd",
+        "models/coll",
+        "texdb/txd.img"
+      ]
+    },
+    {
+      "id": "audio",
+      "name": "Sound Effects",
+      "description": "Game sound effects (weapons, vehicles, environment)",
+      "required": false,
+      "phase": 2,
+      "gpuSpecific": false,
+      "url": "https://cdn.tamilmp.com/packages/tamilmp_audio.zip",
+      "size": 220000000,
+      "hash": "",
+      "verifyFiles": [
+        "audio/SFX/GENRL",
+        "audio/CONFIG"
+      ]
+    },
+    {
+      "id": "radio",
+      "name": "Radio Stations",
+      "description": "In-game radio station music streams",
+      "required": false,
+      "phase": 3,
+      "gpuSpecific": false,
+      "url": "https://cdn.tamilmp.com/packages/tamilmp_radio.zip",
+      "size": 580000000,
+      "hash": "",
+      "verifyFiles": [
+        "audio/streams"
+      ]
+    },
+    {
+      "id": "snow",
+      "name": "Winter Mode",
+      "description": "Seasonal winter texture replacements",
+      "required": false,
+      "phase": 4,
+      "gpuSpecific": true,
+      "variants": {
+        "A": {
+          "url": "https://cdn.tamilmp.com/packages/tamilmp_snow_dxt.zip",
+          "size": 180000000,
+          "hash": ""
+        },
+        "M": {
+          "url": "https://cdn.tamilmp.com/packages/tamilmp_snow_etc.zip",
+          "size": 170000000,
+          "hash": ""
+        },
+        "PT": {
+          "url": "https://cdn.tamilmp.com/packages/tamilmp_snow_pvr.zip",
+          "size": 190000000,
+          "hash": ""
+        }
+      },
+      "verifyFiles": []
+    }
+  ],
+
   "servers": [
     {
       "id": 1,
@@ -40,32 +128,9 @@
     "bytes": 0,
     "size": "0 MB"
   },
-  "filesContinue": [
-    "settings.ini",
-    "gta_sa.set",
-    "svconfig.ini"
-  ],
-  "cache": [
-    {
-      "id": 1001,
-      "name": "settings.ini",
-      "path": "SAMP",
-      "bytes": [87532],
-      "gpu": ""
-    },
-    {
-      "id": 1002,
-      "name": "gta.dat",
-      "path": "data",
-      "bytes": [87532],
-      "gpu": ""
-    },
-    {
-      "id": 1003,
-      "name": "ped.ifp",
-      "path": "anim",
-      "bytes": [87532],
-      "gpu": ""
-    }
-  ]
+
+  "cdnLauncher": "https://raw.githubusercontent.com/henryzx27/TamilMP-Mobile-Backend/main/versions",
+  "cdnCache": "https://cdn.tamilmp.com/packages",
+  "cacheMode": [],
+  "cache": []
 }
