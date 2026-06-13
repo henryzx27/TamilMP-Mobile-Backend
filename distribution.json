@@ -21,7 +21,7 @@
       "required": true,
       "phase": 0,
       "gpuSpecific": false,
-      "url": "https://seriously-geo-technological-concord.trycloudflare.com/core.zip",
+      "url": "https://github.com/henryzx27/TamilMP-Mobile-Backend/releases/download/v1.0.0/core.zip",
       "size": 115926959,
       "hash": "60c1cfd96c6ad75460e3d4af1af57cd86f5406ddbbdb8f77de8831350834b6e9",
       "verifyFiles": [
@@ -38,7 +38,7 @@
       "required": true,
       "phase": 1,
       "gpuSpecific": false,
-      "url": "https://seriously-geo-technological-concord.trycloudflare.com/texdb.zip",
+      "url": "https://github.com/henryzx27/TamilMP-Mobile-Backend/releases/download/v1.0.0/texdb.zip",
       "size": 1344035414,
       "hash": "2491d2b0d19d39a74231b115c49ec814b8c5b9a926b9fb32076d69705159236e",
       "verifyFiles": [
