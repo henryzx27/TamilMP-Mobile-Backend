@@ -40,12 +40,30 @@
     "bytes": 0,
     "size": "0 MB"
   },
-  "filesContinue": [],
+  "filesContinue": [
+    "settings.ini",
+    "gta_sa.set",
+    "svconfig.ini"
+  ],
   "cache": [
     {
-      "id": 1,
-      "name": "test.zip",
-      "path": "",
+      "id": 1001,
+      "name": "settings.ini",
+      "path": "SAMP",
+      "bytes": [87532],
+      "gpu": ""
+    },
+    {
+      "id": 1002,
+      "name": "gta.dat",
+      "path": "data",
+      "bytes": [87532],
+      "gpu": ""
+    },
+    {
+      "id": 1003,
+      "name": "ped.ifp",
+      "path": "anim",
       "bytes": [87532],
       "gpu": ""
     }
