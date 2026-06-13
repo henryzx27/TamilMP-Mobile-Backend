@@ -59,7 +59,7 @@
       "bonus": false,
       "name": "TamilMP Mobile Server",
       "description": "SA-MP Mobile",
-      "address": "127.0.0.1:7777",
+      "address": "51.254.139.153:7777",
       "sampVersion": "0.3.7"
     }
   ],
